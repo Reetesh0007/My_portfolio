@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+ </div>
+  
+  <nav id="desktop-nav">
+    <!-- <div class="logo"><b>REETESH</b></div> -->
+    <a href="#logo" class="logo">
+      <img src="assets/R_logo.png" alt="logo" class="logo" class="logo-icon"/>
+      <h1 style="color:black; font-size: 2.5rem;">
+        <font face="algerian">
+            
+              REETESH
+            
+        </font>
+    </h1>
+     
+  </a>
+
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo"><b>Reetesh</b></div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+       
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+
+
+  <section id="profile">
+    <div class="section__pic-container">
+      
+      <img src="assets/DP2.jpeg"  alt="Profile-img" style="border-radius: 85%; width: 90%; height: 120%;box-shadow: 10px 7px 20px black;"/>
+    </div>
+  
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+    
+     <h1 style="color:black; font-size: 5rem;">
+        <font face="algerian">
+            
+              Reetesh Kumar
+            
+        </font>
+
+    </h1>
+
+      <p class="section__text__p2">Frontend Developer </p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('https://drive.google.com/drive/u/0/folders/1EjaD8jfsxgc6h8JR4sCfNAFC_mr5IWog')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://www.linkedin.com/in/reetesh-kumar00/'" />
+        <img src="./assets/github.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/Reetesh0007'" />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1"> Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/About.jpeg" alt="Profile picture"  class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" /><br>
+            <a href="#experience">Experience</a>
+            <p>Frontend Development</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" /><br>
+            <a href="#education">Education</a>
+            <p>B.Tech. Bachelors Degree</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <h4>
+            Hi, I'm a pre-final year student at ABESEC, majoring in Computer Science with a focus on Data Science.<br>
+            I'm passionate about Web Development and Machine Learning. I've worked on diverse projects.<br>
+            I'm actively seeking opportunities to further my knowledge and contribute to innovative projects.<br>
+            Feel free to reach out. I'm excited to connect and explore new possibilities!<br>
+            To work in an organization where I can utilize my technical competencies in the area of data
+            science &<br> hosting/Software Development and grow along with organization goal.
+            
+          </h4>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+          </div>
+          <h2 class="experience-sub-title">Programming Languages</h2>
+
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>C/C++</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Python</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>SQL</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+
+
+ <h1 class="title">Education</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Schooling</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>High School <br>2017-2018</h3>
+                  <p>G.A.B Inter college Aligarh<br> (Science)</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Intermediate<br>2019-2020</h3>
+                  <p>G.A.B Inter college Aligarh<br>(PCM)</p>
+                </div>
+              </article>
+  
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Graduation<br>2021-2025</h3>
+                  <p>ABES Engineering College <br> B.Tech in Data Science</p>
+                </div>
+              </article>
+            </div>
+
+
+    </div>
+    </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/Doctors_appointment.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Doctors Appointment</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Reetesh0007/Doctors_appointment'">
+              Github
+            </button>
+           
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">E-mobile Store</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Reetesh0007/e-mobile-store'">
+              Github
+            </button>
+           
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Food Delivery</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Reetesh0007/Delivery_website'">
+              Github
+            </button>
+
+            
+
+
+           
+          </div>
+        </div>
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/Libpro.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">LibPro</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Reetesh0007/Library_management'">
+              Github
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:hrieteshaarya2428@gmail.com">EMail</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/reetesh-kumar00/">LinkedIn</a></p>
+      </div>
+
+      <div class="contact-info-container">
+        <img src="./assets/x-icon.png" alt="Twitter icon" class="icon contact-icon" />
+        <p><a href="https://x.com/hrietesh?s=09">Twitter</a></p>
+      </div>
+
+      <div class="contact-info-container">
+        <img src="./assets/ig-icon.png" alt="Instagram icon" class="icon contact-icon" />
+        <p><a href="https://www.instagram.com/_hrietesh__0007?igsh=MWt3bHppbWFjcWlmdg==">Instagram</a></p>
+      </div>
+    
+
+      <div class="contact-info-container">
+        <img src="./assets/fb-icon.png" alt="Facebook icon" class="icon contact-icon" />
+        <p><a href="https://www.facebook.com/Hrietesh.Aarya.1?mibextid=ZbWKwL">Facebook</a></p>
+      </div>
+    </div>
+
+    <p class="title">Write Your Query</p>
+
+    <p class="title">
+      <input type="text" class="query-input" placeholder="Full Name">
+      <input type="text" class="query-input" placeholder="Email">
+      <input type="text" class="query-input" placeholder="Message"><br>
+      <button type="button" class="send-button">send</button>
+    </p>
+     
+      
+
+    </section>
+
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <h4>Copyright &#169; 2023. All Rights Reserved. Made by <b>REETESH</b></h4>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
