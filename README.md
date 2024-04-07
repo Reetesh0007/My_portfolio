@@ -15,7 +15,7 @@ Welcome to my professional portfolio on GitHub. Here, you'll find a collection o
 
 Feel free to connect with me on:
 
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/reetesh-kumar00/)
+- **LinkedIn**: [Reetesh Kumar](https://www.linkedin.com/in/reetesh-kumar00/)
 
 Thank you for visiting my portfolio!
 
