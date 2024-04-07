@@ -7,7 +7,7 @@ Welcome to my professional portfolio on GitHub. Here, you'll find a collection o
 - 👋 Hi, I'm Reetesh kumar , a frontend developer.
 - 👀 I’m interested in web development and Machine Learning.
 - 🌱 I’m currently learning core Java.
-- 💞️ I’m looking to collaborate on Machine learnig projects.
+- 💞️ I’m looking to collaborate on Machine learning projects.
 - 📫 How to reach me: [(https://www.linkedin.com/in/reetesh-kumar00/)].
 
 
